@@ -15,14 +15,17 @@ import reportWebVitals from './reportWebVitals';
 // import BookList from "./05/exam02/BookList";
 // import UserInfoList from "./05/exam03/UserInfoList";
 import NotificationList from "./06/NotificationList";
-import "./06/NotificationList.css";
+// import "./06/NotificationList.css";
+// import Counter3 from "./07/01/Counter3";
+// import TextInputWithFocusButton from "./07/02/TextInputWithFocusButton";
+import Accommodate from "./07/02/Accommodate";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <NotificationList/>
+      <Accommodate/>
     </React.StrictMode>
   );
 }, 1000
