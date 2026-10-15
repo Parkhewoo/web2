@@ -15,7 +15,10 @@ import reportWebVitals from './reportWebVitals';
 // import BookList from "./05/exam02/BookList";
 // import UserInfoList from "./05/exam03/UserInfoList";
 import NotificationList from "./06/NotificationList";
-import MyButton2 from "./08/MyButton2";
+// import ConfirmButton2 from "./08/ConfirmButton2";
+import MessageSend from "./08/MessageSend";
+// import MyButton2 from "./08/MyButton2";
+// import ConfirmButton from "./08/ConfirmButton";
 // import "./06/NotificationList.css";
 // import Counter3 from "./07/01/Counter3";
 // import TextInputWithFocusButton from "./07/02/TextInputWithFocusButton";
@@ -29,7 +32,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <MyButton2/>
+      <MessageSend/>
     </React.StrictMode>
   );
 }, 1000
