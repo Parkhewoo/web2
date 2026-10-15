@@ -15,20 +15,21 @@ import reportWebVitals from './reportWebVitals';
 // import BookList from "./05/exam02/BookList";
 // import UserInfoList from "./05/exam03/UserInfoList";
 import NotificationList from "./06/NotificationList";
+import MyButton2 from "./08/MyButton2";
 // import "./06/NotificationList.css";
 // import Counter3 from "./07/01/Counter3";
 // import TextInputWithFocusButton from "./07/02/TextInputWithFocusButton";
 // import Accommodate from "./07/02/Accommodate";
 // import Toggle from "./08/Toggle";
 // import MyButton from "./08/MyButton";
-import Toggle2 from "./08/Toggle2";
+// import Toggle2 from "./08/Toggle2";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <Toggle2/>
+      <MyButton2/>
     </React.StrictMode>
   );
 }, 1000
