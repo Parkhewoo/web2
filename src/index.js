@@ -16,7 +16,13 @@ import reportWebVitals from './reportWebVitals';
 // import UserInfoList from "./05/exam03/UserInfoList";
 import NotificationList from "./06/NotificationList";
 // import ConfirmButton2 from "./08/ConfirmButton2";
-import MessageSend from "./08/MessageSend";
+// import MessageSend from "./08/MessageSend";
+// import Greeting from "./09/ex1/Greeting";
+// import Mailbox from "./09/ex3/Mailbox";
+// import LogControl2 from "./09/ex3/LogControl2";
+import MainPage from "./09/ex4/MainPage";
+import LandingPage from "./09/ex5/LandingPage";
+// import LogControl from "./09/ex2/LogControl";
 // import MyButton2 from "./08/MyButton2";
 // import ConfirmButton from "./08/ConfirmButton";
 // import "./06/NotificationList.css";
@@ -32,7 +38,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <MessageSend/>
+      <LandingPage/>
     </React.StrictMode>
   );
 }, 1000

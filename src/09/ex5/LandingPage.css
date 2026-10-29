@@ -1,0 +1,74 @@
+
+/* 전체 페이지 */
+.landing-page {
+    min-height: 100vh;
+    background-color: #f8fafc;
+    font-family: "Arial", sans-serif;
+    color: #334155;
+}
+
+/* 툴바 아래 구분선 */
+.page-divider {
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid #e2e8f0;
+}
+
+/* 메인 콘텐츠 */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* 안내 문구 */
+.main-content p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #334155;
+    margin: 0;
+}
+
+/* 반려동물 이미지 */
+.pet-image {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+}
+
+.pet-image:hover {
+    transform: scale(1.05);
+}
+
+/* 로그인 / 로그아웃 버튼 */
+.toolbar-button {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.toolbar-button:hover {
+    background-color: #2563eb;
+}
+
+/* 로그인 환영 문구 */
+.greeting {
+    color: #16a34a;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 12px;
+}

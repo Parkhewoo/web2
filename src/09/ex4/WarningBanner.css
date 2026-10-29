@@ -1,0 +1,13 @@
+
+/* 경고 메시지 */
+.warning-banner {
+    padding: 16px 32px;
+    color: #ffffff;
+    background-color: #dc3545;
+    border: 2px solid #b02a37;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}

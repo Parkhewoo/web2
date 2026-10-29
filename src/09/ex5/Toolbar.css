@@ -1,0 +1,15 @@
+
+/* 툴바 */
+.toolbar {
+    padding: 16px 10%;
+    background-color: white;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* 툴바 내부 요소 */
+.toolbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}

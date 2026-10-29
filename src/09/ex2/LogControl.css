@@ -1,0 +1,21 @@
+/* 전체 화면 */
+body { margin: 0; font-family: Arial, sans-serif; background-color: #f4f6f9; }
+
+/* 로그인 컨테이너 */
+.log-control { width: 350px; margin: 100px auto; padding: 40px 30px; text-align: center; background-color: white; border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); }
+
+/* 인사말 */
+.log-control h1 { margin-bottom: 25px; color: #333; font-size: 26px; }
+
+/* 공통 버튼 스타일 */
+.log-control button { padding: 12px 25px; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; color: white; cursor: pointer; transition: background-color 0.3s, transform 0.2s; }
+
+/* 로그인 버튼 */
+.log-control button.login-button { background-color: #3498db; }
+
+.log-control button.login-button:hover { background-color: #217dbb; transform: translateY(-2px); }
+
+/* 로그아웃 버튼 */
+.log-control button.logout-button { background-color: #e74c3c; }
+
+.log-control button.logout-button:hover { background-color: #c0392b; transform: translateY(-2px); }
