@@ -1,0 +1,67 @@
+
+/* 전체 폼 */
+form {
+    width: 350px;
+    margin: 100px auto;
+    padding: 35px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* 안내 문구 */
+label {
+    display: block;
+    margin-bottom: 25px;
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 과일 선택 박스 */
+select {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: 2px solid #a5d6a7;
+    border-radius: 8px;
+    background-color: #f9fff9;
+    color: #333333;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* 선택 박스 포커스 */
+select:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+/* 제출 버튼 */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #66bb6a;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* 버튼에 마우스를 올렸을 때 */
+button:hover {
+    background-color: #43a047;
+}
+
+/* 버튼 클릭 효과 */
+button:active {
+    transform: scale(0.98);
+}

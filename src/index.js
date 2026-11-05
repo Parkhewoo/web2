@@ -4,6 +4,7 @@ import './index.css';
 // import App from './App';
 // import TodoListApp from "./01/TodoListApp";
 import reportWebVitals from './reportWebVitals';
+import Reservation from "./11/Reservation";
 // import Library from "./03/Library";
 // import './03/Book.css'
 // import './01/TodoListApp.css'
@@ -14,14 +15,17 @@ import reportWebVitals from './reportWebVitals';
 // import WelcomeList from "./05/exam01/WelcomeList";
 // import BookList from "./05/exam02/BookList";
 // import UserInfoList from "./05/exam03/UserInfoList";
-import NotificationList from "./06/NotificationList";
+// import NotificationList from "./06/NotificationList";
 // import ConfirmButton2 from "./08/ConfirmButton2";
 // import MessageSend from "./08/MessageSend";
 // import Greeting from "./09/ex1/Greeting";
 // import Mailbox from "./09/ex3/Mailbox";
 // import LogControl2 from "./09/ex3/LogControl2";
-import MainPage from "./09/ex4/MainPage";
-import LandingPage from "./09/ex5/LandingPage";
+// import MainPage from "./09/ex4/MainPage";
+// import LandingPage from "./09/ex5/LandingPage";
+// import AttendanceCardBook from "./10/AttendanceCardBook";
+// import NewForm from "./11/NewForm";
+// import FruitSelect from "./11/FruitSelect";
 // import LogControl from "./09/ex2/LogControl";
 // import MyButton2 from "./08/MyButton2";
 // import ConfirmButton from "./08/ConfirmButton";
@@ -38,7 +42,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <LandingPage/>
+      <Reservation/>
     </React.StrictMode>
   );
 }, 1000

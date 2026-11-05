@@ -1,0 +1,97 @@
+
+/* 전체 영역 */
+.attendance-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    font-family: 'Pretendard', sans-serif;
+    background-color: #f8fafc;
+    min-height: 100vh;
+}
+
+/* 제목 */
+.attendance-container h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 30px;
+}
+
+/* 학생 카드 목록 */
+.student-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* 학생 개별 카드 */
+.student-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    transition: all 0.25s ease;
+}
+
+/* 마우스 올렸을 때 */
+.student-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-color: #93c5fd;
+}
+
+/* 학생 프로필 이미지 */
+.student-card img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #dbeafe;
+}
+
+/* 학생 정보 */
+.student-info h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1e293b;
+}
+
+.student-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #64748b;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 600px) {
+    .attendance-container {
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    .attendance-container h2 {
+        font-size: 23px;
+    }
+
+    .student-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .student-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 16px 10px;
+        gap: 10px;
+    }
+
+    .student-card img {
+        width: 60px;
+        height: 60px;
+    }
+}
