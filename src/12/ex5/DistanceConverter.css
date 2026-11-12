@@ -1,0 +1,13 @@
+/* 전체 컨테이너 */ div:has(> div > legend) { width: 100%; }
+
+/* 각 입력 영역 */ div:has(> legend) { max-width: 420px; margin: 20px auto; padding: 20px 24px; background-color: #ffffff; border: 1px solid #e5e7eb; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); box-sizing: border-box; }
+
+/* 단위 이름 */ legend { display: block; margin-bottom: 12px; color: #333333; font-size: 16px; font-weight: 600; }
+
+/* 입력창 */ input { width: 100%; padding: 13px 15px; border: 1px solid #d1d5db; border-radius: 8px; background-color: #f9fafb; font-size: 16px; color: #333333; outline: none; box-sizing: border-box; transition: all 0.2s ease; }
+
+/* 입력창 포커스 */ input:focus { border-color: #3b82f6; background-color: #ffffff; box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12); }
+
+/* 플레이스홀더 */ input::placeholder { color: #9ca3af; }
+
+/* 모바일 */ @media (max-width: 480px) { div:has(> legend) { margin: 15px auto; padding: 16px; } }

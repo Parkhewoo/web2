@@ -1,0 +1,69 @@
+
+/* 전체 계산기 영역 */
+div {
+    box-sizing: border-box;
+}
+
+/* 계산기 컨테이너 */
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f7fb;
+    font-family: 'Arial', sans-serif;
+}
+
+/* DistanceConverter 내부 */
+#root > div {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 380px;
+}
+
+/* 온도 입력 영역 */
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #d0d7e2;
+    border-radius: 8px;
+    font-size: 18px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    border-color: #4285f4;
+    box-shadow: 0 0 5px rgba(66, 133, 244, 0.3);
+}
+
+/* 입력창 라벨 */
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 끓는점 결과 */
+p {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #eef5ff;
+    border-radius: 8px;
+    color: #2459a6;
+    font-size: 15px;
+    text-align: center;
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+* {
+    box-sizing: border-box;
+}

@@ -4,7 +4,9 @@ import './index.css';
 // import App from './App';
 // import TodoListApp from "./01/TodoListApp";
 import reportWebVitals from './reportWebVitals';
-import Reservation from "./11/Reservation";
+// import Reservation from "./11/Reservation";
+import Calculator from "./12/ex4/Calculator.jsx";
+import DistanceConverter from "./12/ex5/DistanceConverter";
 // import Library from "./03/Library";
 // import './03/Book.css'
 // import './01/TodoListApp.css'
@@ -42,7 +44,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <Reservation/>
+      <DistanceConverter/>
     </React.StrictMode>
   );
 }, 1000

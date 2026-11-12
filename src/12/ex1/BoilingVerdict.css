@@ -1,0 +1,26 @@
+
+/* 물이 끓는 상태 */
+.boiling {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff0f0;
+    color: #e53935;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #ffcaca;
+}
+
+/* 물이 끓지 않는 상태 */
+.not-boiling {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #eaf4ff;
+    color: #1976d2;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #bbdefb;
+}
