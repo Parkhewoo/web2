@@ -5,8 +5,12 @@ import './index.css';
 // import TodoListApp from "./01/TodoListApp";
 import reportWebVitals from './reportWebVitals';
 // import Reservation from "./11/Reservation";
-import Calculator from "./12/ex4/Calculator.jsx";
-import DistanceConverter from "./12/ex5/DistanceConverter";
+// import Calculator from "./12/ex4/Calculator.jsx";
+// import DistanceConverter from "./12/ex5/DistanceConverter";
+// import Dialog from "./13/ex2/Dialog";
+// import WelcomeDialog from "./13/ex2/WelcomeDialog";
+// import SignUpDialog from "./13/ex3/SignUpDialog";
+import ProfileCard from "./13/ex4/ProfileCard";
 // import Library from "./03/Library";
 // import './03/Book.css'
 // import './01/TodoListApp.css'
@@ -44,7 +48,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <DistanceConverter/>
+      <ProfileCard/>
     </React.StrictMode>
   );
 }, 1000

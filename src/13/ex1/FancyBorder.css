@@ -1,0 +1,45 @@
+/* FancyBorder.jsx 컨테이너 기본 스타일[cite: 1] */
+.FancyBorder {
+    width: 35%;
+
+    /* !* 문서의 정가운데 정렬을 위한 핵심 코드 *!
+     position: fixed; !* 화면 크기를 기준으로 배치 (스크롤해도 중앙 유지) *!
+     top: 50%;        !* 위에서 50% 위치로 이동 *!
+     left: 50%;       !* 왼쪽에서 50% 위치로 이동 *!
+     transform: translate(-50%, -50%); !* 요소 자기 자신 크기의 절반만큼 역방향으로 당겨서 완벽한 중앙을 맞춤 *!*/
+
+    padding: 15px 20px;
+    border: 4px solid #ccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+/* 동적으로 추가되는 props.color 스타일[cite: 1, 2] */
+.FancyBorder-blue {
+    border-color: blue;
+}
+
+/* WelcomeDialog.jsx의 제목 스타일[cite: 2] */
+.Dialog-title {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* WelcomeDialog.jsx의 메시지 스타일[cite: 2] */
+.Dialog-message {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.Dialog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+ 

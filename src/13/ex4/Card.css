@@ -1,0 +1,19 @@
+.card {
+    width: 190px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    flex-shrink: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h1 {
+    font-size: 20px;
+}

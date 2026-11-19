@@ -1,0 +1,37 @@
+
+/* 닉네임 입력창 */
+.SignUpDialog input {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #64748b;
+    border-radius: 8px;
+    background-color: #1e293b;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.SignUpDialog input:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 5px #3b82f6;
+}
+
+/* 가입 버튼 */
+.SignUpDialog button {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.SignUpDialog button:hover {
+    background-color: #1d4ed8;
+}
