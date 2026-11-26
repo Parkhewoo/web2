@@ -2,13 +2,13 @@ import React, { useContext } from "react";
 import ThemeContext from "./ThemeContext";
 import "./MainContent.css";
 
-function MainContent() {
+function MainContent(props) {
     const { theme, toggleTheme } = useContext(ThemeContext);
 
     return (
         <main className={theme}>
             <button onClick={toggleTheme}>
-                {theme === "light" ? "Dark Mode" : "Light Mode"}
+                {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
             </button>
 
             <h1>Welcome to NEXUS</h1>

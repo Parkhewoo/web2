@@ -1,0 +1,125 @@
+
+/* 전체 화면 */
+.main-content {
+    min-height: 100vh;
+    padding: 30px 7%;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, "Noto Sans KR", sans-serif;
+}
+
+/* 라이트 모드 */
+.main-content.light {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+/* 다크 모드 */
+.main-content.dark {
+    background-color: #191919;
+    color: #eeeeee;
+}
+
+/* 상단 헤더 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #99999955;
+}
+
+.header h1 {
+    font-size: 27px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* 테마 버튼 */
+.header button {
+    padding: 10px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.light .header button {
+    background-color: white;
+    border: 1px solid #222;
+    color: #222;
+}
+
+.dark .header button {
+    background-color: #333;
+    border: 1px solid #777;
+    color: white;
+}
+
+.header button:hover {
+    opacity: 0.7;
+}
+
+/* 페이지 제목 */
+.shopping-title {
+    text-align: center;
+    padding: 65px 0 45px;
+}
+
+.shopping-title p {
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #999;
+}
+
+.shopping-title h2 {
+    font-size: 34px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.shopping-title span {
+    font-size: 13px;
+    color: #999;
+    letter-spacing: 2px;
+}
+
+/* 카드 배치 */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px 25px;
+}
+
+/* 하단 */
+.footer {
+    text-align: center;
+    margin-top: 80px;
+    padding: 25px;
+    border-top: 1px solid #99999955;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #999;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-content {
+        padding: 20px 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .shopping-title h2 {
+        font-size: 27px;
+    }
+}
