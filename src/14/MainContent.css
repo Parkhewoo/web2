@@ -1,0 +1,86 @@
+
+/* 전체 메인 영역 */
+main {
+    min-height: 100vh;
+    padding: 40px 8%;
+    box-sizing: border-box;
+    font-family: 'Pretendard', sans-serif;
+    transition: background-color 0.4s ease,
+    color 0.4s ease;
+}
+
+/* 라이트 모드 */
+main.light {
+    background-color: #f5f6fa;
+    color: #22223b;
+}
+
+/* 다크 모드 */
+main.dark {
+    background-color: #10111f;
+    color: #ffffff;
+}
+
+/* 모드 전환 버튼 */
+main button {
+    display: block;
+    margin-left: auto;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 30px;
+    background-color: #7657e8;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main button:hover {
+    background-color: #6241d5;
+    transform: translateY(-2px);
+}
+
+/* 메인 제목 */
+main h1 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: clamp(40px, 6vw, 68px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+/* 메인 설명 */
+main p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* 라이트 모드 버튼 */
+main.light button {
+    background-color: #7657e8;
+}
+
+/* 다크 모드 제목 강조 */
+main.dark h1 {
+    color: #b9a5ff;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+    main {
+        padding: 25px 5%;
+    }
+
+    main h1 {
+        margin-top: 120px;
+        font-size: 40px;
+    }
+
+    main p {
+        font-size: 15px;
+    }
+}
